@@ -1,5 +1,5 @@
-// const mathjs = require("../../__mocks__/maths")
-import mathjs from "../../__mocks__/maths";
+const mathjs = require("../../__mocks__/maths")
+// import mathjs from "../../__mocks__/maths";
 
 test(`The mathjs sub function`, () => {
   const result = mathjs.sub(10000, 1000);
