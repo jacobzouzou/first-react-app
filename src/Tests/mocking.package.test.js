@@ -6,4 +6,4 @@ test(`The mathjs sub function`, () => {
   expect(result).toBe(9000);
   expect(mathjs.sub).toHaveBeenCalled();
   expect(mathjs.sub).toHaveBeenCalledWith(10000, 1000);
-}
+})
