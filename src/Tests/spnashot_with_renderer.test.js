@@ -1,6 +1,6 @@
 import React from "react";
 import { render } from "@testing-library/react";
-import { create,act} from "react-test-renderer";
+import { create, act } from "react-test-renderer";
 
 import App from "../App";
 

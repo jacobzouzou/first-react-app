@@ -1,3 +1,3 @@
 module.exports = {
-  sub: jest.fn((a,b) => a-b),
+  substract: jest.fn((a,b) => a-b),
 };

@@ -4,7 +4,7 @@ function uppercase(str, callback) {
 }
 test(` uppercase 'test' to equal 'TEST' `, (done) => {
     uppercase('test', (str) => {
-        expect(str).toBe('TEST')
-        done()
+        expect(str).toBe('TEST');
+        done();
     })
 })
