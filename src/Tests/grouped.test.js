@@ -11,7 +11,7 @@ const div = (a, b) => a / b;
 // afterEach(()=>{
 //   console.log(`End`)
 // })
-describe("My tests first group", () => {
+describe("Math functions group", () => {
   test(`Adding 1 + 1 equals 2`, () => {
     expect(sum(1, 1)).toBe(2);
   });

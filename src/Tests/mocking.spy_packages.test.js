@@ -1,7 +1,7 @@
 // const mathjs = require("../components/maths")
 import mathjs from "../../modules/maths";
 
-test(`The mathjs log function`, () => {
+test(`The mathjs sum function`, () => {
 
   //spy is nether used
   const spy = jest.spyOn(mathjs, "sum");

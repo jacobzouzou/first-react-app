@@ -4,8 +4,8 @@ import App from "../App";
 
 test("renders learn react link", () => {
   const { getByText } = render(<App />);
-  const linkElement = getByText(/Test with jest/);
-  expect(linkElement).toBeInTheDocument();
+  const value = getByText(/Test with jest/);
+  expect(value).toBeInTheDocument();
 });
 
 //snapthot
